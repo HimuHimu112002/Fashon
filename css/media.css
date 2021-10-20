@@ -1,0 +1,119 @@
+@media(max-width:1200px){
+    .google ul li{
+        font-size: 8px;
+    }
+    .apple ul li{
+        font-size: 8px;
+    }
+    .footer h5{
+        font-size: 15px;
+    }
+    .nasa ul li a{
+        font-size: 14px;
+    }
+    .icon ul li{
+        width: 43px;
+        height: 43px;
+    }
+    .con i{
+        font-size: 14px;
+    }
+    .Feature h1{
+        font-size: 27px;
+    }
+    .discount h2{
+        font-size: 50px;
+    }
+    .discount p{
+        font-size: 25px;
+    }
+    .populer h1{
+        font-size: 27px;
+    }
+    .money h4{
+        font-size: 15px;
+    }
+    .money p{
+        font-size: 13px;
+    }
+    .tranding h1{
+        font-size: 27px;
+    }
+    .journal h1{
+        font-size: 27px;
+    }
+    .follow h1{
+        font-size: 27px;
+    }
+}
+
+
+@media(max-width:991px){
+    .contnst{
+        display: none;
+    }
+    .footer h5{
+        margin-top: 20px;
+    }
+    .icon ul li{
+        width: 35px;
+        height: 35px;
+    }
+    .con i{
+        font-size:12px;
+    }
+    .money h4{
+        font-size: 10px;
+    }
+    .money p{
+        font-size: 10px;
+    }
+}
+@media(max-width:767px){
+    .footer h5{
+        margin-top: 20px;
+    }
+    .google ul li{
+        font-size: 8px;
+    }
+    .money h4{
+        font-size: 15px;
+    }
+    .money p{
+        font-size: 13px;
+    }
+}
+@media(max-width:575px){
+    .banner h1{
+        font-size: 30px;
+    }
+    .banner p{
+        font-size: 13px;
+    }
+    .Feature h1{
+        font-size:25px;
+    }
+    .discount h2{
+        font-size:45px;
+        margin-top:30px
+    }
+    .populer h1{
+        font-size: 25px
+    }
+    .money h4{
+        font-size: 15px;
+    }
+    .money p{
+        font-size:13px;
+    }
+    .tranding h1{
+        font-size:25px;
+    }
+    .journal h1{
+        font-size: 25px;
+    }
+    .follow h1{
+        font-size: 25px;
+    }
+
+}
