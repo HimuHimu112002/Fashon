@@ -25,6 +25,7 @@
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
 
   <!-- Custom css file  -->
   <link rel="stylesheet" href="css/style.css">
@@ -104,8 +105,8 @@
         <div class="container">
           <div class="row hg">
             <div class="col-md-6  col-8 m-auto">
-              <p>ultimate collection</p>
-              <h1>complete women fashion here</h1>
+              <p class="wow bounceInLeft">ultimate collection</p>
+              <h1 class="wow bounceInRight">complete women fashion here</h1>
               <a href="" class="btn_shop">shop now</a>
             </div>
           </div>
@@ -118,7 +119,7 @@
       <section class="Feature my-5">
         <div class="container">
           <div class="row text-center">
-            <div class="col-md-6 m-auto">
+            <div class="col-md-6 m-auto wow bounceInLeft">
               <h1>Feature Products</h1>
             </div>
           </div>
@@ -219,7 +220,7 @@
       <section class="populer">
         <div class="container">
           <div class="row my-5 text-center">
-            <div class="col-md-6 m-auto">
+            <div class="col-md-6 m-auto wow bounceInLeft">
               <h1>Most Popular</h1>
             </div>
           </div>
@@ -363,7 +364,7 @@
       <section class="tranding my-5">
         <div class="container">
           <div class="row my-5 text-center">
-            <div class="col-md-6 m-auto">
+            <div class="col-md-6 m-auto wow bounceInRight">
               <h1>Tranding Products</h1>
             </div>
           </div>
@@ -564,7 +565,7 @@
       <section class="journal">
         <div class="container">
           <div class="row my-5 text-center">
-            <div class="col-md-6 m-auto">
+            <div class="col-md-6 m-auto wow bounceInLeft">
               <h1>Silon Journal</h1>
             </div>
           </div>
@@ -621,7 +622,7 @@
       <section class="follow">
         <div class="container">
           <div class="row my-5 text-center">
-            <div class="col-md-6 m-auto">
+            <div class="col-md-6 m-auto wow bounceInRight">
               <h1>Follow Us</h1>
             </div>
           </div>
@@ -745,6 +746,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.ripples-min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+      wow = new WOW(
+        {
+          boxClass:     'wow',      // default
+          animateClass: 'animated', // default
+          offset:       0,          // default
+          mobile:       false,             
+          live:         true        // default
+        }
+      )
+    wow.init();
+    </script>
+    <script src="js/css3-animate-it.js"></script>
 <script>
   $('.hemo').ripples({
 
