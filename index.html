@@ -26,12 +26,14 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">
+  
 
   <!-- Custom css file  -->
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Media css  -->
   <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
     
     
   </head>
@@ -569,10 +571,12 @@
               <h1>Silon Journal</h1>
             </div>
           </div>
-          <div class="row my-5">
+          <div class="row my-5 img-t">
             <div class="col-md-4 mb-4">
             <div class="divi">
-              <img src="Images/p1.jpg" class="img-fluid" alt="">
+              <a href="Images/p1.jpg" class="imge">
+                <img src="Images/p1.jpg" class="img-fluid" alt="">
+              </a>
               <div class="gh">
                 <p>07 July, 2019</p>
                 <h3>Were divided land his creature which have evening subdue</h3>
@@ -586,7 +590,9 @@
           </div>
             <div class="col-md-4 mb-4">
             <div class="divi">
-              <img src="Images/p2.jpg" class="img-fluid" alt="">
+              <a href="Images/p2.jpg" class="imge">
+                <img src="Images/p2.jpg" class="img-fluid" alt="">
+              </a>
               <div class="gh">
                 <p>07 July, 2019</p>
               <h3>Were divided land his creature which have evening subdue</h3>
@@ -600,7 +606,9 @@
           </div>
             <div class="col-md-4 mb-4">
             <div class="divi">
-              <img src="Images/p3.jpg" class="img-fluid" alt="">
+              <a href="Images/p3.jpg" class="imge">
+                <img src="Images/p3.jpg" class="img-fluid" alt="">
+              </a>
               <div class="gh">
               <p>07 July, 2019</p>
               <h3>Were divided land his creature which have evening subdue</h3>
@@ -746,6 +754,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.ripples-min.js"></script>
+
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script>
+          $('.img-t').magnificPopup({
+              type:'image',
+            delegate:'a',
+              gallery:{
+                  enabled:true
+              }
+            });
+
+    </script>
 
     <script src="js/wow.min.js"></script>
     <script>
